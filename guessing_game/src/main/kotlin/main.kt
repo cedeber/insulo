@@ -4,7 +4,7 @@ fun main() {
     println("Guess the number!")
 
     val secretNumber = Random.nextInt(1, 100)
-    var guess: Int = -1
+    var guess: Int
 
     while (true) {
         println("Please input your guess.")
