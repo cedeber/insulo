@@ -15,7 +15,8 @@ fun main() {
             -1 -> println("Too small!")
             1 -> println("Too big!")
             else -> {
-                println("You win!"); break
+                println("You win!")
+                break
             }
         }
     }
