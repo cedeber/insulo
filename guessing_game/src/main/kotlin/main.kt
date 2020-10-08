@@ -8,7 +8,7 @@ fun main() {
 
     while (true) {
         println("Please input your guess.")
-        guess = readLine()?.toIntOrNull() ?: continue
+        guess = readLine()?.trim()?.toIntOrNull() ?: continue
         println("You guessed $guess")
 
         when (guess.compareTo(secretNumber)) {
