@@ -8,16 +8,14 @@ plugins {
 group = "me.cedeber"
 version = "1.0-SNAPSHOT"
 
+application {
+    mainClassName = "MainKt"
+}
+
 repositories {
     mavenCentral()
 }
 
-dependencies {}
-
 tasks.withType<KotlinCompile>() {
-    kotlinOptions.jvmTarget = "1.8"
-}
-
-application {
-    mainClassName = "MainKt"
+    kotlinOptions.jvmTarget = "14"
 }
