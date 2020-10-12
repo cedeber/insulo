@@ -1,14 +1,13 @@
 ### IntelliJ ###
-/.idea
+.idea
 *.iml
 out/
 
 ### Gradle ###
-.gradle
+.gradle/
 build/
-**/build/
 
-/gradle
+gradle/
 gradle*
 
 ### Java / Kotlin ###
